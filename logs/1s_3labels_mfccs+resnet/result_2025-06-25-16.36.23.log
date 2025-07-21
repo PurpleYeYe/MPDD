@@ -1,0 +1,2512 @@
+2025-06-25 16:36:23,722 - utils.logger2025-06-25-16.36.23 - INFO - splitwindow_time=1s, audiofeature_method=mfccs, videofeature_method=resnet
+2025-06-25 16:36:23,723 - utils.logger2025-06-25-16.36.23 - INFO - batch_size=8, num_epochs=500, labels=3, feature_max_len=25, lr=6e-05
+2025-06-25 16:36:23,723 - utils.logger2025-06-25-16.36.23 - INFO - Using random seed: 3407
+2025-06-25 16:36:23,723 - utils.logger2025-06-25-16.36.23 - INFO - personalized features used：./MPDD-Young/Training/individualEmbedding/descriptions_embeddings_with_ids.npy
+2025-06-25 16:36:23,726 - utils.logger2025-06-25-16.36.23 - INFO - The number of training samples = 237
+2025-06-25 16:36:23,726 - utils.logger2025-06-25-16.36.23 - INFO - The number of val samples = 27
+2025-06-25 16:36:25,351 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 1/500, Avg Loss: 1.0432748616, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:25,351 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:26,849 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 2/500, Avg Loss: 0.9988273760, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:26,849 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:28,330 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 3/500, Avg Loss: 0.9846951385, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:28,330 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:29,807 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 4/500, Avg Loss: 0.9901888927, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:29,807 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:31,282 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 5/500, Avg Loss: 0.9673235993, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:31,282 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:32,768 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 6/500, Avg Loss: 0.9749394377, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:32,769 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:34,249 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 7/500, Avg Loss: 0.9634008745, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:34,250 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:35,830 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 8/500, Avg Loss: 0.9807457209, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:35,830 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:37,310 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 9/500, Avg Loss: 0.9749373396, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:37,310 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:38,790 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 10/500, Avg Loss: 0.9816592594, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:38,790 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:40,268 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 11/500, Avg Loss: 0.9799846490, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:40,269 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:41,744 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 12/500, Avg Loss: 0.9344160318, Weighted F1: 0.3968253968, Unweighted F1: 0.2380952381, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:36:41,744 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:43,219 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 13/500, Avg Loss: 0.8502233962, Weighted F1: 0.3418803419, Unweighted F1: 0.2051282051, Weighted Acc: 0.2666666943, Unweighted Acc: 0.4444444444
+2025-06-25 16:36:43,219 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 9  0  0]
+ [ 3  0  0]]
+2025-06-25 16:36:44,697 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 14/500, Avg Loss: 0.8169508815, Weighted F1: 0.3826754386, Unweighted F1: 0.2576754386, Weighted Acc: 0.2740740992, Unweighted Acc: 0.4074074074
+2025-06-25 16:36:44,697 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [7 2 0]
+ [1 2 0]]
+2025-06-25 16:36:46,172 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 15/500, Avg Loss: 0.7436568469, Weighted F1: 0.4334023464, Unweighted F1: 0.3064182195, Weighted Acc: 0.3259259531, Unweighted Acc: 0.4444444444
+2025-06-25 16:36:46,172 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:36:47,710 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 16/500, Avg Loss: 0.6947708567, Weighted F1: 0.5182501342, Unweighted F1: 0.5134192163, Weighted Acc: 0.5037037148, Unweighted Acc: 0.5185185185
+2025-06-25 16:36:47,710 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[6 9 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:36:49,211 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 17/500, Avg Loss: 0.5529874936, Weighted F1: 0.3948717949, Unweighted F1: 0.2882051282, Weighted Acc: 0.3185185433, Unweighted Acc: 0.4074074074
+2025-06-25 16:36:49,211 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[6 9 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:36:50,713 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 18/500, Avg Loss: 0.5068505302, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:36:50,713 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:36:52,195 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 19/500, Avg Loss: 0.4610931958, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:36:52,195 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:36:53,694 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 20/500, Avg Loss: 0.3664738422, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:36:53,695 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:36:55,175 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 21/500, Avg Loss: 0.3608607097, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:36:55,176 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:36:56,660 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 22/500, Avg Loss: 0.4004935659, Weighted F1: 0.5209876543, Unweighted F1: 0.3481481481, Weighted Acc: 0.3851852218, Unweighted Acc: 0.5925925926
+2025-06-25 16:36:56,660 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:36:58,147 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 23/500, Avg Loss: 0.3121645801, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:36:58,148 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:36:59,629 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 24/500, Avg Loss: 0.2181949481, Weighted F1: 0.4872076023, Unweighted F1: 0.3344298246, Weighted Acc: 0.3555555875, Unweighted Acc: 0.5185185185
+2025-06-25 16:36:59,629 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:01,112 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 25/500, Avg Loss: 0.1568904584, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:37:01,112 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:37:02,619 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 26/500, Avg Loss: 0.1842748796, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:02,619 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:37:04,102 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 27/500, Avg Loss: 0.1399698391, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:04,102 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:05,585 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 28/500, Avg Loss: 0.1666866046, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:37:05,585 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:37:07,067 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 29/500, Avg Loss: 0.1428473956, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:07,067 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:37:08,553 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 30/500, Avg Loss: 0.0705279782, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:37:08,553 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:37:10,058 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 31/500, Avg Loss: 0.1514610290, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:37:10,058 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:37:11,543 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 32/500, Avg Loss: 0.1431699106, Weighted F1: 0.7041847042, Unweighted F1: 0.6406926407, Weighted Acc: 0.6148148374, Unweighted Acc: 0.7037037037
+2025-06-25 16:37:11,543 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:37:13,048 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 33/500, Avg Loss: 0.0926555219, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:13,048 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:14,535 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 34/500, Avg Loss: 0.1135266484, Weighted F1: 0.5370370370, Unweighted F1: 0.3888888889, Weighted Acc: 0.4222222561, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:14,535 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [3 6 0]
+ [0 3 0]]
+2025-06-25 16:37:16,020 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 35/500, Avg Loss: 0.1370999434, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:16,021 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:17,510 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 36/500, Avg Loss: 0.1119542302, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:17,511 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:19,001 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 37/500, Avg Loss: 0.0545350934, Weighted F1: 0.5772430184, Unweighted F1: 0.5267379679, Weighted Acc: 0.4888889050, Unweighted Acc: 0.5925925926
+2025-06-25 16:37:19,001 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:37:20,500 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 38/500, Avg Loss: 0.0733329529, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:20,500 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:21,994 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 39/500, Avg Loss: 0.0564787194, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:21,994 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:37:23,495 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 40/500, Avg Loss: 0.1220133519, Weighted F1: 0.4444444444, Unweighted F1: 0.2962962963, Weighted Acc: 0.3185185483, Unweighted Acc: 0.4814814815
+2025-06-25 16:37:23,496 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:37:24,997 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 41/500, Avg Loss: 0.1101946284, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:37:24,997 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:37:26,510 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 42/500, Avg Loss: 0.0578600277, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:26,510 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:37:28,011 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 43/500, Avg Loss: 0.0779501343, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:28,011 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:29,512 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 44/500, Avg Loss: 0.0511626575, Weighted F1: 0.4584229391, Unweighted F1: 0.3150537634, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:37:29,512 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:31,009 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 45/500, Avg Loss: 0.0662783129, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:31,009 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:32,507 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 46/500, Avg Loss: 0.0515061899, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:37:32,507 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:37:34,003 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 47/500, Avg Loss: 0.0484721240, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:34,003 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:35,504 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 48/500, Avg Loss: 0.0975525807, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:35,504 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:36,995 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 49/500, Avg Loss: 0.0866196869, Weighted F1: 0.4226190476, Unweighted F1: 0.2702380952, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:37:36,995 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:37:38,491 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 50/500, Avg Loss: 0.1181976733, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:38,491 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:37:39,990 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 51/500, Avg Loss: 0.0857301679, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:39,991 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:41,493 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 52/500, Avg Loss: 0.0447881885, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:41,493 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:42,996 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 53/500, Avg Loss: 0.0398452558, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:42,996 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:44,497 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 54/500, Avg Loss: 0.0633606533, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:37:44,497 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:37:46,001 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 55/500, Avg Loss: 0.0998492731, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:37:46,001 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:47,508 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 56/500, Avg Loss: 0.0722549824, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:37:47,508 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:37:49,011 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 57/500, Avg Loss: 0.0691979452, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:49,011 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:37:50,513 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 58/500, Avg Loss: 0.0352188381, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:37:50,513 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:37:52,025 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 59/500, Avg Loss: 0.0454425248, Weighted F1: 0.4226190476, Unweighted F1: 0.2702380952, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:37:52,026 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:37:53,530 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 60/500, Avg Loss: 0.0578338482, Weighted F1: 0.7375478927, Unweighted F1: 0.6647509579, Weighted Acc: 0.6370370619, Unweighted Acc: 0.7407407407
+2025-06-25 16:37:53,530 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:37:55,056 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 61/500, Avg Loss: 0.0611261254, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:37:55,057 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:37:56,569 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 62/500, Avg Loss: 0.0881748735, Weighted F1: 0.6349206349, Unweighted F1: 0.4571428571, Weighted Acc: 0.4888889297, Unweighted Acc: 0.6666666667
+2025-06-25 16:37:56,569 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:37:58,062 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 63/500, Avg Loss: 0.1027253754, Weighted F1: 0.6718913271, Unweighted F1: 0.4879832811, Weighted Acc: 0.5259259689, Unweighted Acc: 0.7037037037
+2025-06-25 16:37:58,062 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:37:59,587 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 64/500, Avg Loss: 0.0639120365, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:37:59,587 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:01,075 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 65/500, Avg Loss: 0.0443958253, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:01,075 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:38:02,558 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 66/500, Avg Loss: 0.0876559153, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:02,559 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:38:04,042 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 67/500, Avg Loss: 0.0459188530, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:04,042 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:38:05,535 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 68/500, Avg Loss: 0.0395614141, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:05,535 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:38:07,021 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 69/500, Avg Loss: 0.1041972136, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:07,021 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:38:08,527 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 70/500, Avg Loss: 0.0743047796, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:08,528 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:38:10,013 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 71/500, Avg Loss: 0.0622177110, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:10,014 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:11,502 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 72/500, Avg Loss: 0.0935516123, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:11,502 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:38:12,984 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 73/500, Avg Loss: 0.0637957717, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:12,984 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:38:14,473 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 74/500, Avg Loss: 0.1110630902, Weighted F1: 0.6349206349, Unweighted F1: 0.4571428571, Weighted Acc: 0.4888889297, Unweighted Acc: 0.6666666667
+2025-06-25 16:38:14,473 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:38:15,955 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 75/500, Avg Loss: 0.0229518364, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:15,956 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:38:17,443 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 76/500, Avg Loss: 0.0380369329, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:17,443 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:38:18,931 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 77/500, Avg Loss: 0.0828927118, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:38:18,931 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:38:20,413 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 78/500, Avg Loss: 0.0578132445, Weighted F1: 0.6032741205, Unweighted F1: 0.4346917450, Weighted Acc: 0.4666667052, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:20,414 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:38:21,899 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 79/500, Avg Loss: 0.0560669854, Weighted F1: 0.4226190476, Unweighted F1: 0.2702380952, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:38:21,899 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:38:23,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 80/500, Avg Loss: 0.0397187767, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:23,383 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:38:24,870 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 81/500, Avg Loss: 0.1932635560, Weighted F1: 0.4584229391, Unweighted F1: 0.3150537634, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:38:24,871 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:26,363 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 82/500, Avg Loss: 0.0640150338, Weighted F1: 0.5772430184, Unweighted F1: 0.5267379679, Weighted Acc: 0.4888889050, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:26,363 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:38:27,856 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 83/500, Avg Loss: 0.0012415786, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:27,856 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:38:29,351 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 84/500, Avg Loss: 0.0502103573, Weighted F1: 0.6797385621, Unweighted F1: 0.6078431373, Weighted Acc: 0.5703703933, Unweighted Acc: 0.7037037037
+2025-06-25 16:38:29,351 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:38:30,847 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 85/500, Avg Loss: 0.0988724763, Weighted F1: 0.6718913271, Unweighted F1: 0.4879832811, Weighted Acc: 0.5259259689, Unweighted Acc: 0.7037037037
+2025-06-25 16:38:30,847 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:38:32,336 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 86/500, Avg Loss: 0.0884840405, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:32,336 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:33,825 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 87/500, Avg Loss: 0.1042924476, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:33,826 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:35,323 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 88/500, Avg Loss: 0.0699236619, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:35,323 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:38:36,809 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 89/500, Avg Loss: 0.1635598187, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:36,810 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:38:38,300 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 90/500, Avg Loss: 0.0545010200, Weighted F1: 0.5424836601, Unweighted F1: 0.3725490196, Weighted Acc: 0.4000000365, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:38,300 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:39,793 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 91/500, Avg Loss: 0.1119391849, Weighted F1: 0.4681069959, Unweighted F1: 0.3364197531, Weighted Acc: 0.3629629924, Unweighted Acc: 0.4814814815
+2025-06-25 16:38:39,793 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:38:41,286 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 92/500, Avg Loss: 0.0906609645, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:41,286 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:42,775 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 93/500, Avg Loss: 0.0590665058, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:42,775 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:38:44,264 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 94/500, Avg Loss: 0.0328962459, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:44,265 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:38:45,755 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 95/500, Avg Loss: 0.0701871937, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:45,755 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:38:47,290 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 96/500, Avg Loss: 0.1847484848, Weighted F1: 0.5571428571, Unweighted F1: 0.5031746032, Weighted Acc: 0.4740740903, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:47,290 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:38:48,804 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 97/500, Avg Loss: 0.0805870275, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:48,804 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:50,344 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 98/500, Avg Loss: 0.0454497550, Weighted F1: 0.6053921569, Unweighted F1: 0.5465686275, Weighted Acc: 0.5111111295, Unweighted Acc: 0.6296296296
+2025-06-25 16:38:50,344 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:38:51,848 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 99/500, Avg Loss: 0.0560055582, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:38:51,848 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:53,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 100/500, Avg Loss: 0.0809054333, Weighted F1: 0.6611016789, Unweighted F1: 0.6001697793, Weighted Acc: 0.5629629835, Unweighted Acc: 0.6666666667
+2025-06-25 16:38:53,383 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:38:54,895 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 101/500, Avg Loss: 0.0874300731, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:38:54,895 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:38:56,397 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 102/500, Avg Loss: 0.0004617788, Weighted F1: 0.4872076023, Unweighted F1: 0.3344298246, Weighted Acc: 0.3555555875, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:56,398 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:38:57,900 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 103/500, Avg Loss: 0.0841501953, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:57,900 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:38:59,407 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 104/500, Avg Loss: 0.0314609982, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:38:59,407 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:39:00,902 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 105/500, Avg Loss: 0.0655685268, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:00,903 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:39:02,399 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 106/500, Avg Loss: 0.0754875002, Weighted F1: 0.5901716657, Unweighted F1: 0.5435766836, Weighted Acc: 0.5037037197, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:02,399 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:39:03,896 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 107/500, Avg Loss: 0.0884307445, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:03,897 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:39:05,396 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 108/500, Avg Loss: 0.0389174342, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:39:05,396 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:39:06,890 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 109/500, Avg Loss: 0.0703830607, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:06,891 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:08,387 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 110/500, Avg Loss: 0.0611523082, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:08,387 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:09,885 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 111/500, Avg Loss: 0.0503888046, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:09,885 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:39:11,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 112/500, Avg Loss: 0.0475215288, Weighted F1: 0.4565217391, Unweighted F1: 0.3405797101, Weighted Acc: 0.3925926218, Unweighted Acc: 0.4814814815
+2025-06-25 16:39:11,384 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[6 9 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:39:12,885 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 113/500, Avg Loss: 0.1096384546, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:39:12,886 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:39:14,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 114/500, Avg Loss: 0.1004558927, Weighted F1: 0.5641025641, Unweighted F1: 0.5384615385, Weighted Acc: 0.5111111246, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:14,383 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [3 6 0]
+ [0 2 1]]
+2025-06-25 16:39:15,882 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 115/500, Avg Loss: 0.0881045509, Weighted F1: 0.3603603604, Unweighted F1: 0.2162162162, Weighted Acc: 0.2666666943, Unweighted Acc: 0.4444444444
+2025-06-25 16:39:15,882 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 9  0  0]
+ [ 1  2  0]]
+2025-06-25 16:39:17,375 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 116/500, Avg Loss: 0.0512924519, Weighted F1: 0.7230144583, Unweighted F1: 0.6455733809, Weighted Acc: 0.6074074325, Unweighted Acc: 0.7407407407
+2025-06-25 16:39:17,375 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:39:18,861 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 117/500, Avg Loss: 0.0972725439, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:39:18,861 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:39:20,347 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 118/500, Avg Loss: 0.0521556409, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:20,348 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:39:21,845 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 119/500, Avg Loss: 0.1032761276, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:21,845 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:39:23,349 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 120/500, Avg Loss: 0.0341531268, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:23,349 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:24,851 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 121/500, Avg Loss: 0.0415854855, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:24,851 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:39:26,344 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 122/500, Avg Loss: 0.0385127135, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:39:26,344 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:39:27,839 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 123/500, Avg Loss: 0.0936844334, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:39:27,839 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:29,333 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 124/500, Avg Loss: 0.0006603196, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:39:29,333 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:39:30,833 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 125/500, Avg Loss: 0.0443747120, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:39:30,833 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:39:32,341 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 126/500, Avg Loss: 0.0781423177, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:32,341 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:39:33,840 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 127/500, Avg Loss: 0.0417171941, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:33,841 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:35,354 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 128/500, Avg Loss: 0.0452581979, Weighted F1: 0.7095238095, Unweighted F1: 0.6301587302, Weighted Acc: 0.5925926178, Unweighted Acc: 0.7407407407
+2025-06-25 16:39:35,354 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:39:36,850 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 129/500, Avg Loss: 0.0399266734, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:39:36,850 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:39:38,350 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 130/500, Avg Loss: 0.0391440701, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:38,350 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:39:39,849 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 131/500, Avg Loss: 0.0310089806, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:39:39,849 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:39:41,347 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 132/500, Avg Loss: 0.1621594714, Weighted F1: 0.5098039216, Unweighted F1: 0.3529411765, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:41,347 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:39:42,844 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 133/500, Avg Loss: 0.0918566919, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:42,844 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:44,345 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 134/500, Avg Loss: 0.0637004652, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:44,346 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:39:45,845 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 135/500, Avg Loss: 0.1203406497, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:45,845 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:39:47,348 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 136/500, Avg Loss: 0.0484351761, Weighted F1: 0.5310457516, Unweighted F1: 0.4852941176, Weighted Acc: 0.4518518658, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:47,348 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:39:48,849 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 137/500, Avg Loss: 0.0630522555, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:48,849 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:39:50,357 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 138/500, Avg Loss: 0.0646905408, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:39:50,357 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:39:51,864 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 139/500, Avg Loss: 0.0540401996, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:51,864 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:39:53,361 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 140/500, Avg Loss: 0.0735030298, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:39:53,361 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:39:54,860 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 141/500, Avg Loss: 0.0248956248, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:39:54,860 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:39:56,366 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 142/500, Avg Loss: 0.1341791024, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:56,366 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:39:57,869 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 143/500, Avg Loss: 0.0284230048, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:39:57,870 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:39:59,368 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 144/500, Avg Loss: 0.1012835104, Weighted F1: 0.4869383490, Unweighted F1: 0.3657262278, Weighted Acc: 0.4296296610, Unweighted Acc: 0.5185185185
+2025-06-25 16:39:59,368 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[6 9 0]
+ [1 8 0]
+ [0 3 0]]
+2025-06-25 16:40:00,868 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 145/500, Avg Loss: 0.0463311359, Weighted F1: 0.5591168091, Unweighted F1: 0.5405982906, Weighted Acc: 0.5259259393, Unweighted Acc: 0.5555555556
+2025-06-25 16:40:00,868 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:40:02,370 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 146/500, Avg Loss: 0.0882305514, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:40:02,371 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:03,873 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 147/500, Avg Loss: 0.0805013570, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:03,873 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:40:05,369 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 148/500, Avg Loss: 0.0178023715, Weighted F1: 0.4584229391, Unweighted F1: 0.3150537634, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:40:05,369 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:06,868 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 149/500, Avg Loss: 0.0534241559, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:06,868 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:40:08,371 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 150/500, Avg Loss: 0.0238723056, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:08,371 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:40:09,869 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 151/500, Avg Loss: 0.0535310046, Weighted F1: 0.6611016789, Unweighted F1: 0.6001697793, Weighted Acc: 0.5629629835, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:09,869 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:40:11,367 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 152/500, Avg Loss: 0.0017663322, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:40:11,367 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:12,865 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 153/500, Avg Loss: 0.0371339934, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:40:12,865 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:40:14,368 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 154/500, Avg Loss: 0.0202961274, Weighted F1: 0.5772430184, Unweighted F1: 0.5267379679, Weighted Acc: 0.4888889050, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:14,368 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:40:15,872 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 155/500, Avg Loss: 0.0565604204, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:40:15,872 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:17,379 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 156/500, Avg Loss: 0.0870691954, Weighted F1: 0.6611016789, Unweighted F1: 0.6001697793, Weighted Acc: 0.5629629835, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:17,379 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:40:18,875 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 157/500, Avg Loss: 0.0451786531, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:18,875 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:40:20,377 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 158/500, Avg Loss: 0.0843105900, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:20,377 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:21,877 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 159/500, Avg Loss: 0.2220525440, Weighted F1: 0.6179738562, Unweighted F1: 0.5401960784, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:21,877 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  2  1]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:40:23,381 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 160/500, Avg Loss: 0.0578644393, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:23,381 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:40:24,881 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 161/500, Avg Loss: 0.0746827588, Weighted F1: 0.6349206349, Unweighted F1: 0.4571428571, Weighted Acc: 0.4888889297, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:24,881 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:40:26,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 162/500, Avg Loss: 0.0411214089, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:40:26,383 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:27,884 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 163/500, Avg Loss: 0.0208888024, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:27,884 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:29,384 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 164/500, Avg Loss: 0.0606690229, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:29,384 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:40:30,888 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 165/500, Avg Loss: 0.0384517137, Weighted F1: 0.6032741205, Unweighted F1: 0.4346917450, Weighted Acc: 0.4666667052, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:30,889 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:40:32,395 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 166/500, Avg Loss: 0.0515356403, Weighted F1: 0.5424836601, Unweighted F1: 0.3725490196, Weighted Acc: 0.4000000365, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:32,395 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:33,888 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 167/500, Avg Loss: 0.0367164151, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:33,888 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:40:35,393 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 168/500, Avg Loss: 0.0340365121, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:35,393 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:40:36,910 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 169/500, Avg Loss: 0.0642783176, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:36,910 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:38,416 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 170/500, Avg Loss: 0.0478846244, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:38,416 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:40:39,916 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 171/500, Avg Loss: 0.0709718344, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:39,916 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:40:41,417 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 172/500, Avg Loss: 0.0329873973, Weighted F1: 0.4226190476, Unweighted F1: 0.2702380952, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:40:41,417 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:40:42,912 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 173/500, Avg Loss: 0.0367970502, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:42,913 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:44,417 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 174/500, Avg Loss: 0.0615594527, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:44,417 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:40:45,917 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 175/500, Avg Loss: 0.0460432161, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:40:45,918 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:40:47,430 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 176/500, Avg Loss: 0.0427291491, Weighted F1: 0.4809523810, Unweighted F1: 0.4396825397, Weighted Acc: 0.4148148266, Unweighted Acc: 0.5185185185
+2025-06-25 16:40:47,430 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:40:48,929 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 177/500, Avg Loss: 0.0792347269, Weighted F1: 0.5497076023, Unweighted F1: 0.4853801170, Weighted Acc: 0.4814815001, Unweighted Acc: 0.6296296296
+2025-06-25 16:40:48,929 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:40:50,430 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 178/500, Avg Loss: 0.0078057368, Weighted F1: 0.7272727273, Unweighted F1: 0.5252525253, Weighted Acc: 0.5555556033, Unweighted Acc: 0.7777777778
+2025-06-25 16:40:50,430 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:40:51,932 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 179/500, Avg Loss: 0.0399272295, Weighted F1: 0.6862745098, Unweighted F1: 0.4901960784, Weighted Acc: 0.5185185641, Unweighted Acc: 0.7407407407
+2025-06-25 16:40:51,932 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:40:53,432 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 180/500, Avg Loss: 0.0454575190, Weighted F1: 0.7095238095, Unweighted F1: 0.6301587302, Weighted Acc: 0.5925926178, Unweighted Acc: 0.7407407407
+2025-06-25 16:40:53,432 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:40:54,933 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 181/500, Avg Loss: 0.0428424268, Weighted F1: 0.6966374269, Unweighted F1: 0.5021929825, Weighted Acc: 0.5333333788, Unweighted Acc: 0.7407407407
+2025-06-25 16:40:54,933 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:40:56,442 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 182/500, Avg Loss: 0.0509232406, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:40:56,442 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:40:57,948 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 183/500, Avg Loss: 0.0395431229, Weighted F1: 0.7375478927, Unweighted F1: 0.6647509579, Weighted Acc: 0.6370370619, Unweighted Acc: 0.7407407407
+2025-06-25 16:40:57,948 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:40:59,451 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 184/500, Avg Loss: 0.0248661041, Weighted F1: 0.6611016789, Unweighted F1: 0.6001697793, Weighted Acc: 0.5629629835, Unweighted Acc: 0.6666666667
+2025-06-25 16:40:59,451 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:41:00,952 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 185/500, Avg Loss: 0.0717704989, Weighted F1: 0.4901234568, Unweighted F1: 0.3296296296, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:00,952 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 1  2  0]]
+2025-06-25 16:41:02,454 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 186/500, Avg Loss: 0.1108386811, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:02,455 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:41:03,952 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 187/500, Avg Loss: 0.0392330735, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:03,953 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:41:05,457 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 188/500, Avg Loss: 0.0279656096, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:05,457 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:41:06,955 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 189/500, Avg Loss: 0.0230700526, Weighted F1: 0.7000000000, Unweighted F1: 0.6333333333, Weighted Acc: 0.6000000227, Unweighted Acc: 0.7037037037
+2025-06-25 16:41:06,955 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:41:08,451 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 190/500, Avg Loss: 0.0361878850, Weighted F1: 0.6611016789, Unweighted F1: 0.6001697793, Weighted Acc: 0.5629629835, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:08,451 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:41:09,954 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 191/500, Avg Loss: 0.0461330592, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:09,954 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:41:11,455 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 192/500, Avg Loss: 0.0408587614, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:11,455 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:41:12,952 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 193/500, Avg Loss: 0.0291713586, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:12,953 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:41:14,449 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 194/500, Avg Loss: 0.0451234252, Weighted F1: 0.5497076023, Unweighted F1: 0.4853801170, Weighted Acc: 0.4814815001, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:14,449 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:41:15,949 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 195/500, Avg Loss: 0.0239428380, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:15,949 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:41:17,443 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 196/500, Avg Loss: 0.0615498801, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:17,444 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:41:18,938 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 197/500, Avg Loss: 0.0408315942, Weighted F1: 0.6346153846, Unweighted F1: 0.5918803419, Weighted Acc: 0.5703703884, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:18,939 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:41:20,441 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 198/500, Avg Loss: 0.0424342757, Weighted F1: 0.6346153846, Unweighted F1: 0.5918803419, Weighted Acc: 0.5703703884, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:20,442 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:41:21,936 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 199/500, Avg Loss: 0.0419912134, Weighted F1: 0.5977777778, Unweighted F1: 0.5666666667, Weighted Acc: 0.5481481638, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:21,936 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:41:23,433 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 200/500, Avg Loss: 0.0858406581, Weighted F1: 0.6613756614, Unweighted F1: 0.5873015873, Weighted Acc: 0.5555555786, Unweighted Acc: 0.7037037037
+2025-06-25 16:41:23,433 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:41:24,932 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 201/500, Avg Loss: 0.0513265974, Weighted F1: 0.6674876847, Unweighted F1: 0.6100164204, Weighted Acc: 0.5777777982, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:24,932 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:41:26,431 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 202/500, Avg Loss: 0.0427705078, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:26,431 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:41:27,943 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 203/500, Avg Loss: 0.0283905898, Weighted F1: 0.5551851852, Unweighted F1: 0.5144444444, Weighted Acc: 0.5259259393, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:27,943 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 7 1]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:41:29,459 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 204/500, Avg Loss: 0.0516581290, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:29,460 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:41:30,976 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 205/500, Avg Loss: 0.0376964841, Weighted F1: 0.8029617053, Unweighted F1: 0.7133559706, Weighted Acc: 0.6814815110, Unweighted Acc: 0.8148148148
+2025-06-25 16:41:30,977 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:41:32,521 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 206/500, Avg Loss: 0.0516496480, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:41:32,521 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:34,044 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 207/500, Avg Loss: 0.0278355681, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:34,044 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:35,573 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 208/500, Avg Loss: 0.0391355172, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:35,573 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:41:37,095 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 209/500, Avg Loss: 0.0231197643, Weighted F1: 0.6310541311, Unweighted F1: 0.5940170940, Weighted Acc: 0.5851852031, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:37,095 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [1 8 0]
+ [0 2 1]]
+2025-06-25 16:41:38,618 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 210/500, Avg Loss: 0.0457652215, Weighted F1: 0.6501287384, Unweighted F1: 0.5861556744, Weighted Acc: 0.5481481688, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:38,618 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:41:40,142 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 211/500, Avg Loss: 0.0144434146, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:40,143 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:41,670 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 212/500, Avg Loss: 0.1490784081, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:41:41,670 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:41:43,192 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 213/500, Avg Loss: 0.0431442098, Weighted F1: 0.7272727273, Unweighted F1: 0.5252525253, Weighted Acc: 0.5555556033, Unweighted Acc: 0.7777777778
+2025-06-25 16:41:43,193 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:41:44,698 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 214/500, Avg Loss: 0.0352680663, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:44,698 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:41:46,212 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 215/500, Avg Loss: 0.0592263860, Weighted F1: 0.7703703704, Unweighted F1: 0.6888888889, Weighted Acc: 0.6592592865, Unweighted Acc: 0.7777777778
+2025-06-25 16:41:46,212 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:41:47,722 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 216/500, Avg Loss: 0.0566156285, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:47,722 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:41:49,264 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 217/500, Avg Loss: 0.0478427690, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:49,264 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:41:50,775 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 218/500, Avg Loss: 0.0420966299, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:41:50,775 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:41:52,289 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 219/500, Avg Loss: 0.0401203140, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:52,289 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:53,806 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 220/500, Avg Loss: 0.0212721875, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:41:53,806 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:55,307 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 221/500, Avg Loss: 0.0320812334, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:41:55,307 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:41:56,834 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 222/500, Avg Loss: 0.0232856252, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:41:56,834 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:41:58,352 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 223/500, Avg Loss: 0.0189173619, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:41:58,352 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:41:59,872 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 224/500, Avg Loss: 0.0568538438, Weighted F1: 0.4898785425, Unweighted F1: 0.3144399460, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:41:59,873 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:42:01,371 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 225/500, Avg Loss: 0.0427015397, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:01,371 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:42:02,866 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 226/500, Avg Loss: 0.0360945936, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:02,867 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:42:04,396 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 227/500, Avg Loss: 0.0438960811, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:42:04,396 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:42:05,921 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 228/500, Avg Loss: 0.0380889020, Weighted F1: 0.4829059829, Unweighted F1: 0.3119658120, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:05,921 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:42:07,449 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 229/500, Avg Loss: 0.0287788208, Weighted F1: 0.5497076023, Unweighted F1: 0.4853801170, Weighted Acc: 0.4814815001, Unweighted Acc: 0.6296296296
+2025-06-25 16:42:07,449 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:42:08,972 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 230/500, Avg Loss: 0.0381126004, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:42:08,972 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:42:10,496 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 231/500, Avg Loss: 0.0448984101, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:42:10,496 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:42:12,018 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 232/500, Avg Loss: 0.0795675625, Weighted F1: 0.5044091711, Unweighted F1: 0.4550264550, Weighted Acc: 0.4370370511, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:12,018 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:42:13,536 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 233/500, Avg Loss: 0.0347969843, Weighted F1: 0.7959001783, Unweighted F1: 0.7049910873, Weighted Acc: 0.6666666963, Unweighted Acc: 0.8148148148
+2025-06-25 16:42:13,536 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:42:15,057 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 234/500, Avg Loss: 0.0011941454, Weighted F1: 0.5571428571, Unweighted F1: 0.5031746032, Weighted Acc: 0.4740740903, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:15,057 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:42:16,575 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 235/500, Avg Loss: 0.0389830579, Weighted F1: 0.6613756614, Unweighted F1: 0.5873015873, Weighted Acc: 0.5555555786, Unweighted Acc: 0.7037037037
+2025-06-25 16:42:16,575 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:42:18,093 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 236/500, Avg Loss: 0.0558343164, Weighted F1: 0.5787581699, Unweighted F1: 0.5009803922, Weighted Acc: 0.4888889050, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:18,093 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  3  1]
+ [ 0  2  1]]
+2025-06-25 16:42:19,613 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 237/500, Avg Loss: 0.0929477242, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:19,613 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:42:21,131 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 238/500, Avg Loss: 0.0426197233, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:21,131 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:42:22,648 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 239/500, Avg Loss: 0.0431871035, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:42:22,648 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:42:24,167 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 240/500, Avg Loss: 0.0642699174, Weighted F1: 0.4888888889, Unweighted F1: 0.4666666667, Weighted Acc: 0.4222222314, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:24,167 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [6 3 0]
+ [0 2 1]]
+2025-06-25 16:42:25,684 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 241/500, Avg Loss: 0.0255095053, Weighted F1: 0.4173976608, Unweighted F1: 0.2785087719, Weighted Acc: 0.2962963237, Unweighted Acc: 0.4444444444
+2025-06-25 16:42:25,684 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:42:27,201 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 242/500, Avg Loss: 0.0463918789, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:27,201 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:42:28,717 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 243/500, Avg Loss: 0.0825102926, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:28,717 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:42:30,243 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 244/500, Avg Loss: 0.0324801056, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:30,243 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:42:31,744 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 245/500, Avg Loss: 0.0427724840, Weighted F1: 0.4809523810, Unweighted F1: 0.4396825397, Weighted Acc: 0.4148148266, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:31,744 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:42:33,250 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 246/500, Avg Loss: 0.0781591121, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:33,250 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:42:34,804 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 247/500, Avg Loss: 0.0229217526, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:34,804 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:42:36,327 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 248/500, Avg Loss: 0.0221388608, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:36,327 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:42:37,845 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 249/500, Avg Loss: 0.0434383534, Weighted F1: 0.4456790123, Unweighted F1: 0.2851851852, Weighted Acc: 0.3259259581, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:37,845 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:42:39,360 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 250/500, Avg Loss: 0.0328570206, Weighted F1: 0.4226190476, Unweighted F1: 0.2702380952, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:42:39,360 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:42:40,858 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 251/500, Avg Loss: 0.0413037741, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:40,858 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:42:42,361 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 252/500, Avg Loss: 0.0898886526, Weighted F1: 0.5424836601, Unweighted F1: 0.3725490196, Weighted Acc: 0.4000000365, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:42,361 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:42:43,872 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 253/500, Avg Loss: 0.0488370256, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:42:43,872 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:42:45,376 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 254/500, Avg Loss: 0.0172939618, Weighted F1: 0.5044091711, Unweighted F1: 0.4550264550, Weighted Acc: 0.4370370511, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:45,376 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:42:46,871 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 255/500, Avg Loss: 0.0298054361, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:46,871 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:42:48,369 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 256/500, Avg Loss: 0.0373305689, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:42:48,370 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:42:49,875 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 257/500, Avg Loss: 0.0346340364, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:42:49,875 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:42:51,379 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 258/500, Avg Loss: 0.0599059708, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:51,379 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:42:52,886 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 259/500, Avg Loss: 0.0337205097, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:52,887 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:42:54,393 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 260/500, Avg Loss: 0.0308943025, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:54,394 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:42:55,900 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 261/500, Avg Loss: 0.0597590170, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:55,901 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:42:57,412 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 262/500, Avg Loss: 0.0206580522, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:42:57,412 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:42:58,922 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 263/500, Avg Loss: 0.0818203210, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:42:58,922 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:00,465 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 264/500, Avg Loss: 0.0286007884, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:00,465 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:43:01,994 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 265/500, Avg Loss: 0.0241991423, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:01,994 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:03,518 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 266/500, Avg Loss: 0.0167195399, Weighted F1: 0.4584229391, Unweighted F1: 0.3150537634, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:43:03,518 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:43:05,042 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 267/500, Avg Loss: 0.0004638236, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:05,042 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:06,567 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 268/500, Avg Loss: 0.0201954395, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:06,567 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:08,096 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 269/500, Avg Loss: 0.0344079969, Weighted F1: 0.4888888889, Unweighted F1: 0.4507936508, Weighted Acc: 0.4370370461, Unweighted Acc: 0.4814814815
+2025-06-25 16:43:08,096 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 6 1]
+ [5 4 0]
+ [0 2 1]]
+2025-06-25 16:43:09,626 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 270/500, Avg Loss: 0.0332101444, Weighted F1: 0.5571428571, Unweighted F1: 0.5031746032, Weighted Acc: 0.4740740903, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:09,626 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:43:11,164 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 271/500, Avg Loss: 0.0954151525, Weighted F1: 0.5370370370, Unweighted F1: 0.3888888889, Weighted Acc: 0.4222222561, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:11,164 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [3 6 0]
+ [0 3 0]]
+2025-06-25 16:43:12,670 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 272/500, Avg Loss: 0.0427198539, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:43:12,670 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:14,175 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 273/500, Avg Loss: 0.0171800113, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:14,175 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:15,677 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 274/500, Avg Loss: 0.0464429507, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:15,678 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:17,175 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 275/500, Avg Loss: 0.0398978042, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:17,175 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:18,675 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 276/500, Avg Loss: 0.0413820227, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:18,675 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:43:20,172 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 277/500, Avg Loss: 0.0462412463, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:20,173 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:21,690 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 278/500, Avg Loss: 0.0225489854, Weighted F1: 0.5310457516, Unweighted F1: 0.4852941176, Weighted Acc: 0.4518518658, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:21,690 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:43:23,196 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 279/500, Avg Loss: 0.0166628842, Weighted F1: 0.5310457516, Unweighted F1: 0.4852941176, Weighted Acc: 0.4518518658, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:23,196 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:43:24,697 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 280/500, Avg Loss: 0.0645267590, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:24,698 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:26,197 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 281/500, Avg Loss: 0.0004791108, Weighted F1: 0.5151515152, Unweighted F1: 0.3535353535, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:26,197 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:43:27,697 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 282/500, Avg Loss: 0.0457779032, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:27,697 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:29,201 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 283/500, Avg Loss: 0.0240266326, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:29,201 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:43:30,709 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 284/500, Avg Loss: 0.0441766507, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:30,709 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:32,209 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 285/500, Avg Loss: 0.0340787692, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:32,210 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:33,709 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 286/500, Avg Loss: 0.0190004763, Weighted F1: 0.5370370370, Unweighted F1: 0.3888888889, Weighted Acc: 0.4222222561, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:33,710 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [3 6 0]
+ [0 3 0]]
+2025-06-25 16:43:35,207 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 287/500, Avg Loss: 0.0390930279, Weighted F1: 0.6143790850, Unweighted F1: 0.4313725490, Weighted Acc: 0.4592593003, Unweighted Acc: 0.6666666667
+2025-06-25 16:43:35,207 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:36,715 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 288/500, Avg Loss: 0.1101615836, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:36,715 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:38,234 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 289/500, Avg Loss: 0.0589362955, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:38,235 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:39,748 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 290/500, Avg Loss: 0.0420679843, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:39,749 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:43:41,263 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 291/500, Avg Loss: 0.0183477032, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:41,263 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:42,780 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 292/500, Avg Loss: 0.0412931638, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:43:42,780 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:43:44,299 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 293/500, Avg Loss: 0.0203016293, Weighted F1: 0.6341991342, Unweighted F1: 0.5865800866, Weighted Acc: 0.5555555737, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:44,300 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:43:45,819 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 294/500, Avg Loss: 0.0720390259, Weighted F1: 0.5828924162, Unweighted F1: 0.5211640212, Weighted Acc: 0.4962963148, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:45,820 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:43:47,338 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 295/500, Avg Loss: 0.0266862657, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:47,338 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:43:48,858 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 296/500, Avg Loss: 0.0278971305, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:48,858 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:50,378 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 297/500, Avg Loss: 0.0604063963, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:50,378 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:43:51,889 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 298/500, Avg Loss: 0.0422571200, Weighted F1: 0.5497076023, Unweighted F1: 0.4853801170, Weighted Acc: 0.4814815001, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:51,890 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:43:53,407 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 299/500, Avg Loss: 0.0005009607, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:53,407 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:43:54,925 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 300/500, Avg Loss: 0.0423983410, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:54,925 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:43:56,443 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 301/500, Avg Loss: 0.0334264485, Weighted F1: 0.5661375661, Unweighted F1: 0.4031746032, Weighted Acc: 0.4296296660, Unweighted Acc: 0.5925925926
+2025-06-25 16:43:56,443 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:43:57,960 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 302/500, Avg Loss: 0.0443853620, Weighted F1: 0.6272904483, Unweighted F1: 0.5532163743, Weighted Acc: 0.5407407590, Unweighted Acc: 0.6296296296
+2025-06-25 16:43:57,960 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  3  1]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:43:59,478 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 303/500, Avg Loss: 0.0388309523, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:43:59,478 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:00,992 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 304/500, Avg Loss: 0.0421537896, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:00,993 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:44:02,517 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 305/500, Avg Loss: 0.0281784150, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:44:02,517 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:04,036 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 306/500, Avg Loss: 0.0407765661, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:04,036 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:05,549 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 307/500, Avg Loss: 0.0486329617, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:05,549 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:07,103 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 308/500, Avg Loss: 0.0144001799, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:07,104 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:44:08,611 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 309/500, Avg Loss: 0.0408431132, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:08,611 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:44:10,110 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 310/500, Avg Loss: 0.0106273586, Weighted F1: 0.5571428571, Unweighted F1: 0.5031746032, Weighted Acc: 0.4740740903, Unweighted Acc: 0.5925925926
+2025-06-25 16:44:10,110 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:44:11,619 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 311/500, Avg Loss: 0.0205393592, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:11,620 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:13,121 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 312/500, Avg Loss: 0.0581180471, Weighted F1: 0.4285714286, Unweighted F1: 0.2952380952, Weighted Acc: 0.3111111384, Unweighted Acc: 0.4444444444
+2025-06-25 16:44:13,121 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [6 3 0]
+ [0 3 0]]
+2025-06-25 16:44:14,636 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 313/500, Avg Loss: 0.0560056250, Weighted F1: 0.4444444444, Unweighted F1: 0.2962962963, Weighted Acc: 0.3185185483, Unweighted Acc: 0.4814814815
+2025-06-25 16:44:14,636 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:16,135 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 314/500, Avg Loss: 0.0225748474, Weighted F1: 0.4960317460, Unweighted F1: 0.3309523810, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:16,135 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:17,639 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 315/500, Avg Loss: 0.0108166836, Weighted F1: 0.4160654161, Unweighted F1: 0.3448773449, Weighted Acc: 0.3703703775, Unweighted Acc: 0.4444444444
+2025-06-25 16:44:17,640 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  2  3]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:44:19,133 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 316/500, Avg Loss: 0.0407050822, Weighted F1: 0.5015873016, Unweighted F1: 0.3365079365, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:19,134 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  1  1]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:44:20,640 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 317/500, Avg Loss: 0.0527289733, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:44:20,640 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:44:22,142 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 318/500, Avg Loss: 0.0351303169, Weighted F1: 0.5222155004, Unweighted F1: 0.4583585400, Weighted Acc: 0.4592592707, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:22,142 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 4 2]
+ [5 4 0]
+ [0 2 1]]
+2025-06-25 16:44:23,642 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 319/500, Avg Loss: 0.0226357320, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:23,642 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:25,144 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 320/500, Avg Loss: 0.0051328840, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:25,144 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:26,645 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 321/500, Avg Loss: 0.0191129287, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:44:26,645 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:44:28,143 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 322/500, Avg Loss: 0.0248551167, Weighted F1: 0.5422222222, Unweighted F1: 0.4000000000, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:28,143 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 6 1]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:44:29,646 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 323/500, Avg Loss: 0.0014729280, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:44:29,646 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:31,148 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 324/500, Avg Loss: 0.0202478751, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:44:31,148 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:32,652 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 325/500, Avg Loss: 0.0280361281, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:32,652 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:34,154 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 326/500, Avg Loss: 0.0223992808, Weighted F1: 0.5498366013, Unweighted F1: 0.3799019608, Weighted Acc: 0.4000000365, Unweighted Acc: 0.5925925926
+2025-06-25 16:44:34,154 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  1  1]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:35,652 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 327/500, Avg Loss: 0.0245355189, Weighted F1: 0.4584229391, Unweighted F1: 0.3150537634, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:44:35,652 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:37,154 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 328/500, Avg Loss: 0.0066763357, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:37,154 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:38,664 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 329/500, Avg Loss: 0.0327480132, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:44:38,664 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:40,167 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 330/500, Avg Loss: 0.0433598890, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:44:40,167 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:44:41,670 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 331/500, Avg Loss: 0.0003637943, Weighted F1: 0.5777777778, Unweighted F1: 0.4000000000, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:41,670 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  0  1]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:44:43,173 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 332/500, Avg Loss: 0.0596684792, Weighted F1: 0.5933075933, Unweighted F1: 0.4131274131, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:44:43,173 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:44:44,683 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 333/500, Avg Loss: 0.0109785012, Weighted F1: 0.6074074074, Unweighted F1: 0.4444444444, Weighted Acc: 0.4666667052, Unweighted Acc: 0.6296296296
+2025-06-25 16:44:44,683 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  3  1]
+ [ 3  6  0]
+ [ 1  2  0]]
+2025-06-25 16:44:46,191 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 334/500, Avg Loss: 0.0358911224, Weighted F1: 0.5222953216, Unweighted F1: 0.3695175439, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:46,191 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:44:47,697 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 335/500, Avg Loss: 0.0819035071, Weighted F1: 0.5152856842, Unweighted F1: 0.3719165085, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:44:47,697 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  2  3]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:44:49,194 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 336/500, Avg Loss: 0.0170164862, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:49,195 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:44:50,698 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 337/500, Avg Loss: 0.0969114085, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:44:50,699 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:44:52,225 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 338/500, Avg Loss: 0.0047543709, Weighted F1: 0.4166666667, Unweighted F1: 0.2500000000, Weighted Acc: 0.3333333679, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:52,225 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 9  0  0]
+ [ 1  2  0]]
+2025-06-25 16:44:53,725 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 339/500, Avg Loss: 0.0160883978, Weighted F1: 0.4334023464, Unweighted F1: 0.3064182195, Weighted Acc: 0.3259259531, Unweighted Acc: 0.4444444444
+2025-06-25 16:44:53,726 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:44:55,230 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 340/500, Avg Loss: 0.0056017525, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:55,230 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:44:56,738 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 341/500, Avg Loss: 0.0221890146, Weighted F1: 0.5222953216, Unweighted F1: 0.3695175439, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:44:56,739 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:44:58,245 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 342/500, Avg Loss: 0.0298714450, Weighted F1: 0.4829059829, Unweighted F1: 0.3119658120, Weighted Acc: 0.3703704071, Unweighted Acc: 0.5925925926
+2025-06-25 16:44:58,245 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:44:59,752 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 343/500, Avg Loss: 0.0404375650, Weighted F1: 0.3991769547, Unweighted F1: 0.2839506173, Weighted Acc: 0.3037037286, Unweighted Acc: 0.4074074074
+2025-06-25 16:44:59,752 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:45:01,251 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 344/500, Avg Loss: 0.0213397186, Weighted F1: 0.3991769547, Unweighted F1: 0.2839506173, Weighted Acc: 0.3037037286, Unweighted Acc: 0.4074074074
+2025-06-25 16:45:01,251 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:45:02,754 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 345/500, Avg Loss: 0.0006782852, Weighted F1: 0.3991769547, Unweighted F1: 0.2839506173, Weighted Acc: 0.3037037286, Unweighted Acc: 0.4074074074
+2025-06-25 16:45:02,754 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:45:04,259 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 346/500, Avg Loss: 0.0454925454, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:45:04,259 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:45:05,761 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 347/500, Avg Loss: 0.0024310710, Weighted F1: 0.5297011988, Unweighted F1: 0.5091250671, Weighted Acc: 0.4740740854, Unweighted Acc: 0.5185185185
+2025-06-25 16:45:05,761 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [4 5 0]
+ [0 2 1]]
+2025-06-25 16:45:07,274 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 348/500, Avg Loss: 0.0179152530, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:45:07,274 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:45:08,779 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 349/500, Avg Loss: 0.0278316283, Weighted F1: 0.5424836601, Unweighted F1: 0.3725490196, Weighted Acc: 0.4000000365, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:08,779 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:45:10,288 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 350/500, Avg Loss: 0.0041632199, Weighted F1: 0.5222953216, Unweighted F1: 0.3695175439, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:45:10,288 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:45:11,798 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 351/500, Avg Loss: 0.0780915088, Weighted F1: 0.5222953216, Unweighted F1: 0.3695175439, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:45:11,799 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:45:13,297 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 352/500, Avg Loss: 0.0260769186, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:13,297 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:45:14,830 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 353/500, Avg Loss: 0.0283253415, Weighted F1: 0.6032741205, Unweighted F1: 0.4346917450, Weighted Acc: 0.4666667052, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:14,830 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:16,345 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 354/500, Avg Loss: 0.0047039143, Weighted F1: 0.6407407407, Unweighted F1: 0.4555555556, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:45:16,345 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:45:17,865 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 355/500, Avg Loss: 0.0025265216, Weighted F1: 0.4380094380, Unweighted F1: 0.2818532819, Weighted Acc: 0.3259259581, Unweighted Acc: 0.5185185185
+2025-06-25 16:45:17,865 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:45:19,386 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 356/500, Avg Loss: 0.0073339071, Weighted F1: 0.4107744108, Unweighted F1: 0.2760942761, Weighted Acc: 0.2962963237, Unweighted Acc: 0.4444444444
+2025-06-25 16:45:19,387 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 7  2  0]
+ [ 1  2  0]]
+2025-06-25 16:45:20,893 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 357/500, Avg Loss: 0.0498302756, Weighted F1: 0.4148148148, Unweighted F1: 0.2666666667, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:45:20,894 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:45:22,398 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 358/500, Avg Loss: 0.0005163865, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:22,398 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:23,900 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 359/500, Avg Loss: 0.0403637035, Weighted F1: 0.6501287384, Unweighted F1: 0.5861556744, Weighted Acc: 0.5481481688, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:23,900 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:45:25,400 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 360/500, Avg Loss: 0.0224290884, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:25,400 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:45:26,910 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 361/500, Avg Loss: 0.0166591332, Weighted F1: 0.6203703704, Unweighted F1: 0.5648148148, Weighted Acc: 0.5259259443, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:26,910 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:45:28,413 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 362/500, Avg Loss: 0.0224760654, Weighted F1: 0.5974274767, Unweighted F1: 0.5552818829, Weighted Acc: 0.5185185344, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:28,413 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:45:29,912 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 363/500, Avg Loss: 0.1173229189, Weighted F1: 0.6349206349, Unweighted F1: 0.4571428571, Weighted Acc: 0.4888889297, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:29,912 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:31,414 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 364/500, Avg Loss: 0.0894713059, Weighted F1: 0.6042476042, Unweighted F1: 0.4520590521, Weighted Acc: 0.4740740903, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:31,414 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  0  2]
+ [ 2  2  5]
+ [ 0  2  1]]
+2025-06-25 16:45:32,918 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 365/500, Avg Loss: 0.0350350902, Weighted F1: 0.6349206349, Unweighted F1: 0.4571428571, Weighted Acc: 0.4888889297, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:32,919 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:34,422 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 366/500, Avg Loss: 0.0472967232, Weighted F1: 0.7375478927, Unweighted F1: 0.6647509579, Weighted Acc: 0.6370370619, Unweighted Acc: 0.7407407407
+2025-06-25 16:45:34,422 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:45:35,961 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 367/500, Avg Loss: 0.0210330013, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:35,961 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:45:37,489 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 368/500, Avg Loss: 0.0194623798, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:37,489 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:45:39,014 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 369/500, Avg Loss: 0.0018704039, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:39,014 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:45:40,543 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 370/500, Avg Loss: 0.0019765239, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:40,543 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:45:42,066 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 371/500, Avg Loss: 0.0021164829, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:45:42,067 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:45:43,593 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 372/500, Avg Loss: 0.0243979498, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:43,593 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:45:45,112 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 373/500, Avg Loss: 0.0237594808, Weighted F1: 0.6032741205, Unweighted F1: 0.4346917450, Weighted Acc: 0.4666667052, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:45,112 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:46,633 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 374/500, Avg Loss: 0.0001616049, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:46,633 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:45:48,160 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 375/500, Avg Loss: 0.0003380033, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:48,160 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:45:49,684 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 376/500, Avg Loss: 0.0169859932, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:49,684 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:45:51,236 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 377/500, Avg Loss: 0.0058061438, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:45:51,236 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:45:52,745 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 378/500, Avg Loss: 0.0361498741, Weighted F1: 0.5977777778, Unweighted F1: 0.5666666667, Weighted Acc: 0.5481481638, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:52,745 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:45:54,260 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 379/500, Avg Loss: 0.0235255599, Weighted F1: 0.6862745098, Unweighted F1: 0.4901960784, Weighted Acc: 0.5185185641, Unweighted Acc: 0.7407407407
+2025-06-25 16:45:54,260 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:45:55,782 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 380/500, Avg Loss: 0.0140303553, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:45:55,782 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:45:57,290 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 381/500, Avg Loss: 0.0159713639, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:45:57,290 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:45:58,834 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 382/500, Avg Loss: 0.0841526286, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:45:58,835 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:46:00,415 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 383/500, Avg Loss: 0.0047198623, Weighted F1: 0.6613756614, Unweighted F1: 0.5873015873, Weighted Acc: 0.5555555786, Unweighted Acc: 0.7037037037
+2025-06-25 16:46:00,415 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:46:01,926 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 384/500, Avg Loss: 0.0199193666, Weighted F1: 0.7272727273, Unweighted F1: 0.5252525253, Weighted Acc: 0.5555556033, Unweighted Acc: 0.7777777778
+2025-06-25 16:46:01,926 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:46:03,436 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 385/500, Avg Loss: 0.0002684305, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:03,436 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:46:04,955 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 386/500, Avg Loss: 0.0952088733, Weighted F1: 0.4380094380, Unweighted F1: 0.2818532819, Weighted Acc: 0.3259259581, Unweighted Acc: 0.5185185185
+2025-06-25 16:46:04,955 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:46:06,466 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 387/500, Avg Loss: 0.0126127007, Weighted F1: 0.5044091711, Unweighted F1: 0.4550264550, Weighted Acc: 0.4370370511, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:06,466 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:46:07,977 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 388/500, Avg Loss: 0.0166249994, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:46:07,978 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:46:09,485 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 389/500, Avg Loss: 0.0024735509, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:09,485 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:10,991 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 390/500, Avg Loss: 0.0716111280, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:10,991 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:12,502 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 391/500, Avg Loss: 0.0055235187, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:46:12,502 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:46:14,011 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 392/500, Avg Loss: 0.0216936770, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:14,011 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:15,523 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 393/500, Avg Loss: 0.0063309312, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:15,523 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:17,033 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 394/500, Avg Loss: 0.0014866137, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:46:17,033 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:46:18,536 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 395/500, Avg Loss: 0.0267421205, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:18,537 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:46:20,033 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 396/500, Avg Loss: 0.0211928700, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:46:20,034 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:46:21,540 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 397/500, Avg Loss: 0.0003561582, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:46:21,540 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:46:23,046 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 398/500, Avg Loss: 0.0048137918, Weighted F1: 0.6718913271, Unweighted F1: 0.4879832811, Weighted Acc: 0.5259259689, Unweighted Acc: 0.7037037037
+2025-06-25 16:46:23,046 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:46:24,562 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 399/500, Avg Loss: 0.0023031994, Weighted F1: 0.4501352265, Unweighted F1: 0.3524340771, Weighted Acc: 0.3703703775, Unweighted Acc: 0.4444444444
+2025-06-25 16:46:24,563 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  1  4]
+ [ 0  2  1]]
+2025-06-25 16:46:26,069 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 400/500, Avg Loss: 0.0100022530, Weighted F1: 0.4676779314, Unweighted F1: 0.3734639017, Weighted Acc: 0.3925926020, Unweighted Acc: 0.4814814815
+2025-06-25 16:46:26,069 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  1  3]
+ [ 0  2  1]]
+2025-06-25 16:46:27,567 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 401/500, Avg Loss: 0.0071331876, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:46:27,568 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:46:29,077 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 402/500, Avg Loss: 0.0000346068, Weighted F1: 0.5310457516, Unweighted F1: 0.4852941176, Weighted Acc: 0.4518518658, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:29,077 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:46:30,583 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 403/500, Avg Loss: 0.0012745393, Weighted F1: 0.5591168091, Unweighted F1: 0.5405982906, Weighted Acc: 0.5259259393, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:30,583 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:46:32,084 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 404/500, Avg Loss: 0.0299650029, Weighted F1: 0.5591168091, Unweighted F1: 0.5405982906, Weighted Acc: 0.5259259393, Unweighted Acc: 0.5555555556
+2025-06-25 16:46:32,084 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:46:33,588 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 405/500, Avg Loss: 0.0123083226, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:46:33,588 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:46:35,094 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 406/500, Avg Loss: 0.0011680025, Weighted F1: 0.5977777778, Unweighted F1: 0.5666666667, Weighted Acc: 0.5481481638, Unweighted Acc: 0.5925925926
+2025-06-25 16:46:35,095 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:46:36,600 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 407/500, Avg Loss: 0.0032899487, Weighted F1: 0.6659498208, Unweighted F1: 0.4795698925, Weighted Acc: 0.5111111542, Unweighted Acc: 0.7037037037
+2025-06-25 16:46:36,600 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:46:38,105 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 408/500, Avg Loss: 0.0020041452, Weighted F1: 0.7703703704, Unweighted F1: 0.6888888889, Weighted Acc: 0.6592592865, Unweighted Acc: 0.7777777778
+2025-06-25 16:46:38,105 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:46:39,610 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 409/500, Avg Loss: 0.0150214655, Weighted F1: 0.6921296296, Unweighted F1: 0.6226851852, Weighted Acc: 0.5851852080, Unweighted Acc: 0.7037037037
+2025-06-25 16:46:39,610 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:46:41,107 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 410/500, Avg Loss: 0.0504590872, Weighted F1: 0.4888888889, Unweighted F1: 0.4666666667, Weighted Acc: 0.4222222314, Unweighted Acc: 0.4814814815
+2025-06-25 16:46:41,107 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [6 3 0]
+ [0 2 1]]
+2025-06-25 16:46:42,614 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 411/500, Avg Loss: 0.0008070071, Weighted F1: 0.4285714286, Unweighted F1: 0.2952380952, Weighted Acc: 0.3111111384, Unweighted Acc: 0.4444444444
+2025-06-25 16:46:42,615 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [6 3 0]
+ [0 3 0]]
+2025-06-25 16:46:44,120 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 412/500, Avg Loss: 0.0002311470, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:46:44,121 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:46:45,623 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 413/500, Avg Loss: 0.0274920554, Weighted F1: 0.5497076023, Unweighted F1: 0.4853801170, Weighted Acc: 0.4814815001, Unweighted Acc: 0.6296296296
+2025-06-25 16:46:45,623 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 8  1  0]
+ [ 0  2  1]]
+2025-06-25 16:46:47,132 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 414/500, Avg Loss: 0.1898652800, Weighted F1: 0.5912506710, Unweighted F1: 0.5670960816, Weighted Acc: 0.5629629785, Unweighted Acc: 0.5925925926
+2025-06-25 16:46:47,132 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [1 8 0]
+ [0 2 1]]
+2025-06-25 16:46:48,638 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 415/500, Avg Loss: 0.0483190016, Weighted F1: 0.6674876847, Unweighted F1: 0.6100164204, Weighted Acc: 0.5777777982, Unweighted Acc: 0.6666666667
+2025-06-25 16:46:48,638 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:46:50,143 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 416/500, Avg Loss: 0.0020248698, Weighted F1: 0.5967741935, Unweighted F1: 0.4247311828, Weighted Acc: 0.4518518905, Unweighted Acc: 0.6296296296
+2025-06-25 16:46:50,143 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:51,650 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 417/500, Avg Loss: 0.0077097859, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:46:51,650 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:46:53,153 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 418/500, Avg Loss: 0.0127341135, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:46:53,154 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:46:54,657 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 419/500, Avg Loss: 0.0002002223, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:46:54,657 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:46:56,160 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 420/500, Avg Loss: 0.0005739410, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:46:56,160 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:46:57,662 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 421/500, Avg Loss: 0.0023818700, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:46:57,662 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:46:59,167 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 422/500, Avg Loss: 0.0002115460, Weighted F1: 0.6053921569, Unweighted F1: 0.5465686275, Weighted Acc: 0.5111111295, Unweighted Acc: 0.6296296296
+2025-06-25 16:46:59,167 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:47:00,671 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 423/500, Avg Loss: 0.0040648559, Weighted F1: 0.6333333333, Unweighted F1: 0.5666666667, Weighted Acc: 0.5333333541, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:00,671 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:47:02,172 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 424/500, Avg Loss: 0.0410636684, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:47:02,172 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:47:03,675 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 425/500, Avg Loss: 0.0247960939, Weighted F1: 0.6718913271, Unweighted F1: 0.4879832811, Weighted Acc: 0.5259259689, Unweighted Acc: 0.7037037037
+2025-06-25 16:47:03,675 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:47:05,176 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 426/500, Avg Loss: 0.0123060716, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:05,176 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:06,677 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 427/500, Avg Loss: 0.0294622564, Weighted F1: 0.4901234568, Unweighted F1: 0.3296296296, Weighted Acc: 0.3629629973, Unweighted Acc: 0.5555555556
+2025-06-25 16:47:06,677 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 7  2  0]
+ [ 1  2  0]]
+2025-06-25 16:47:08,180 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 428/500, Avg Loss: 0.0970650656, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:47:08,180 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:47:09,688 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 429/500, Avg Loss: 0.0003624545, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:09,689 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:47:11,193 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 430/500, Avg Loss: 0.0004503364, Weighted F1: 0.5962962963, Unweighted F1: 0.4111111111, Weighted Acc: 0.4444444856, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:11,193 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:47:12,699 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 431/500, Avg Loss: 0.0041623311, Weighted F1: 0.5275985663, Unweighted F1: 0.3698924731, Weighted Acc: 0.3925926267, Unweighted Acc: 0.5555555556
+2025-06-25 16:47:12,699 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:14,196 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 432/500, Avg Loss: 0.0030707911, Weighted F1: 0.4334023464, Unweighted F1: 0.3064182195, Weighted Acc: 0.3259259531, Unweighted Acc: 0.4444444444
+2025-06-25 16:47:14,197 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:47:15,703 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 433/500, Avg Loss: 0.0001003976, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:15,704 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:17,217 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 434/500, Avg Loss: 0.0047922017, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:17,217 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:18,723 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 435/500, Avg Loss: 0.0279906164, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:18,724 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:47:20,223 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 436/500, Avg Loss: 0.0296803685, Weighted F1: 0.3974225009, Unweighted F1: 0.2748171369, Weighted Acc: 0.2888889139, Unweighted Acc: 0.4074074074
+2025-06-25 16:47:20,223 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [6 3 0]
+ [0 3 0]]
+2025-06-25 16:47:21,827 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 437/500, Avg Loss: 0.0017582405, Weighted F1: 0.5592592593, Unweighted F1: 0.5222222222, Weighted Acc: 0.4814814952, Unweighted Acc: 0.5555555556
+2025-06-25 16:47:21,827 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  2  1]]
+2025-06-25 16:47:23,331 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 438/500, Avg Loss: 0.0148018316, Weighted F1: 0.4942279942, Unweighted F1: 0.4783549784, Weighted Acc: 0.4370370461, Unweighted Acc: 0.4814814815
+2025-06-25 16:47:23,332 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [5 4 0]
+ [0 2 1]]
+2025-06-25 16:47:24,840 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 439/500, Avg Loss: 0.0002575804, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:24,840 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:47:26,342 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 440/500, Avg Loss: 0.0001143827, Weighted F1: 0.5456885457, Unweighted F1: 0.3655083655, Weighted Acc: 0.4074074464, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:26,343 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:47:27,848 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 441/500, Avg Loss: 0.0275817839, Weighted F1: 0.5370370370, Unweighted F1: 0.3888888889, Weighted Acc: 0.4222222561, Unweighted Acc: 0.5555555556
+2025-06-25 16:47:27,848 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [3 6 0]
+ [0 3 0]]
+2025-06-25 16:47:29,354 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 442/500, Avg Loss: 0.0057820533, Weighted F1: 0.5828924162, Unweighted F1: 0.5211640212, Weighted Acc: 0.4962963148, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:29,354 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:47:30,859 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 443/500, Avg Loss: 0.0002387399, Weighted F1: 0.6085701086, Unweighted F1: 0.5395010395, Weighted Acc: 0.5185185394, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:30,859 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:47:32,363 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 444/500, Avg Loss: 0.1081912597, Weighted F1: 0.5350427350, Unweighted F1: 0.3928205128, Weighted Acc: 0.4370370708, Unweighted Acc: 0.5555555556
+2025-06-25 16:47:32,364 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:47:33,869 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 445/500, Avg Loss: 0.0001275594, Weighted F1: 0.7320316921, Unweighted F1: 0.6567628749, Weighted Acc: 0.6222222472, Unweighted Acc: 0.7407407407
+2025-06-25 16:47:33,869 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:47:35,373 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 446/500, Avg Loss: 0.0009529785, Weighted F1: 0.6921296296, Unweighted F1: 0.6226851852, Weighted Acc: 0.5851852080, Unweighted Acc: 0.7037037037
+2025-06-25 16:47:35,373 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  2  1]]
+2025-06-25 16:47:36,878 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 447/500, Avg Loss: 0.0028542700, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:36,878 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:38,383 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 448/500, Avg Loss: 0.0004257920, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:38,383 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:39,886 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 449/500, Avg Loss: 0.0008657563, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:39,886 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:41,389 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 450/500, Avg Loss: 0.0009838872, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:41,389 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:42,900 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 451/500, Avg Loss: 0.0002755313, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:42,900 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:44,425 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 452/500, Avg Loss: 0.0444092491, Weighted F1: 0.6268274854, Unweighted F1: 0.4462719298, Weighted Acc: 0.4740741150, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:44,425 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:47:45,946 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 453/500, Avg Loss: 0.0078028430, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:45,947 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:47:47,497 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 454/500, Avg Loss: 0.0016919405, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:47:47,497 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:47:49,019 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 455/500, Avg Loss: 0.0123002887, Weighted F1: 0.6059670782, Unweighted F1: 0.4413580247, Weighted Acc: 0.4814815199, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:49,019 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:47:50,542 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 456/500, Avg Loss: 0.0115750356, Weighted F1: 0.4973544974, Unweighted F1: 0.3492063492, Weighted Acc: 0.3703704022, Unweighted Acc: 0.5185185185
+2025-06-25 16:47:50,542 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:52,067 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 457/500, Avg Loss: 0.0043969476, Weighted F1: 0.5521885522, Unweighted F1: 0.3905723906, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:47:52,068 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 1  2  0]]
+2025-06-25 16:47:53,596 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 458/500, Avg Loss: 0.0489937813, Weighted F1: 0.5712820513, Unweighted F1: 0.4174358974, Weighted Acc: 0.4592592954, Unweighted Acc: 0.5925925926
+2025-06-25 16:47:53,596 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:47:55,124 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 459/500, Avg Loss: 0.0000918043, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:47:55,124 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:56,644 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 460/500, Avg Loss: 0.0046788988, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:47:56,644 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:47:58,168 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 461/500, Avg Loss: 0.0383320788, Weighted F1: 0.7037037037, Unweighted F1: 0.5111111111, Weighted Acc: 0.5481481935, Unweighted Acc: 0.7407407407
+2025-06-25 16:47:58,168 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:47:59,688 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 462/500, Avg Loss: 0.0002508370, Weighted F1: 0.7037037037, Unweighted F1: 0.5111111111, Weighted Acc: 0.5481481935, Unweighted Acc: 0.7407407407
+2025-06-25 16:47:59,688 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:48:01,212 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 463/500, Avg Loss: 0.0000888009, Weighted F1: 0.7037037037, Unweighted F1: 0.5111111111, Weighted Acc: 0.5481481935, Unweighted Acc: 0.7407407407
+2025-06-25 16:48:01,213 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:48:02,742 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 464/500, Avg Loss: 0.0013152121, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:02,742 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:04,276 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 465/500, Avg Loss: 0.0101094162, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:48:04,276 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:48:05,799 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 466/500, Avg Loss: 0.0856497049, Weighted F1: 0.4456790123, Unweighted F1: 0.2851851852, Weighted Acc: 0.3259259581, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:05,799 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 8  1  0]
+ [ 0  3  0]]
+2025-06-25 16:48:07,315 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 467/500, Avg Loss: 0.0002359129, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:48:07,315 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:08,833 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 468/500, Avg Loss: 0.0191791790, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:08,834 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:10,349 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 469/500, Avg Loss: 0.0208160822, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:10,349 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:11,862 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 470/500, Avg Loss: 0.0074904368, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:11,862 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:13,378 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 471/500, Avg Loss: 0.0016065648, Weighted F1: 0.6394064872, Unweighted F1: 0.4648033126, Weighted Acc: 0.5037037444, Unweighted Acc: 0.6666666667
+2025-06-25 16:48:13,378 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 2  7  0]
+ [ 0  3  0]]
+2025-06-25 16:48:14,885 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 472/500, Avg Loss: 0.0341719568, Weighted F1: 0.5694444444, Unweighted F1: 0.3916666667, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:14,885 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 0  3  0]]
+2025-06-25 16:48:16,402 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 473/500, Avg Loss: 0.0363492284, Weighted F1: 0.5570175439, Unweighted F1: 0.3903508772, Weighted Acc: 0.4148148512, Unweighted Acc: 0.5925925926
+2025-06-25 16:48:16,402 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:17,920 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 474/500, Avg Loss: 0.0036361113, Weighted F1: 0.4660397074, Unweighted F1: 0.3281086729, Weighted Acc: 0.3481481777, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:17,921 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [5 4 0]
+ [0 3 0]]
+2025-06-25 16:48:19,442 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 475/500, Avg Loss: 0.0023249652, Weighted F1: 0.5828924162, Unweighted F1: 0.5211640212, Weighted Acc: 0.4962963148, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:19,442 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:48:20,965 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 476/500, Avg Loss: 0.0060412742, Weighted F1: 0.4642857143, Unweighted F1: 0.3119047619, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:20,965 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 1  2  0]]
+2025-06-25 16:48:22,485 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 477/500, Avg Loss: 0.0253592556, Weighted F1: 0.5020703934, Unweighted F1: 0.3592132505, Weighted Acc: 0.3851852169, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:22,485 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:48:24,001 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 478/500, Avg Loss: 0.0226388999, Weighted F1: 0.4969135802, Unweighted F1: 0.3672839506, Weighted Acc: 0.4148148463, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:24,001 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [2 7 0]
+ [0 3 0]]
+2025-06-25 16:48:25,518 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 479/500, Avg Loss: 0.0063754927, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:25,518 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:27,037 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 480/500, Avg Loss: 0.0027487244, Weighted F1: 0.5346569140, Unweighted F1: 0.3814002090, Weighted Acc: 0.4074074414, Unweighted Acc: 0.5555555556
+2025-06-25 16:48:27,038 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:48:28,555 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 481/500, Avg Loss: 0.0006330861, Weighted F1: 0.6565656566, Unweighted F1: 0.4680134680, Weighted Acc: 0.4962963395, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:28,556 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 4  5  0]
+ [ 0  3  0]]
+2025-06-25 16:48:30,070 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 482/500, Avg Loss: 0.0017770610, Weighted F1: 0.6428571429, Unweighted F1: 0.4523809524, Weighted Acc: 0.4814815248, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:30,070 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:31,588 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 483/500, Avg Loss: 0.0061591963, Weighted F1: 0.4681069959, Unweighted F1: 0.3364197531, Weighted Acc: 0.3629629924, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:31,589 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[8 7 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:48:33,104 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 484/500, Avg Loss: 0.0052964744, Weighted F1: 0.4324786325, Unweighted F1: 0.3128205128, Weighted Acc: 0.3407407678, Unweighted Acc: 0.4444444444
+2025-06-25 16:48:33,104 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[7 8 0]
+ [4 5 0]
+ [0 3 0]]
+2025-06-25 16:48:34,609 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 485/500, Avg Loss: 0.0006838249, Weighted F1: 0.5654320988, Unweighted F1: 0.3925925926, Weighted Acc: 0.4222222611, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:34,609 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:48:36,119 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 486/500, Avg Loss: 0.0018955258, Weighted F1: 0.5098039216, Unweighted F1: 0.3529411765, Weighted Acc: 0.3777778120, Unweighted Acc: 0.5555555556
+2025-06-25 16:48:36,120 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:48:37,633 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 487/500, Avg Loss: 0.0074510694, Weighted F1: 0.5707384403, Unweighted F1: 0.4120082816, Weighted Acc: 0.4444444807, Unweighted Acc: 0.5925925926
+2025-06-25 16:48:37,633 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 3  6  0]
+ [ 0  3  0]]
+2025-06-25 16:48:39,163 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 488/500, Avg Loss: 0.0085646358, Weighted F1: 0.5858585859, Unweighted F1: 0.4107744108, Weighted Acc: 0.4370370758, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:39,163 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[13  2  0]
+ [ 5  4  0]
+ [ 0  3  0]]
+2025-06-25 16:48:40,667 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 489/500, Avg Loss: 0.0500902952, Weighted F1: 0.6699767400, Unweighted F1: 0.6164787976, Weighted Acc: 0.5925926129, Unweighted Acc: 0.6666666667
+2025-06-25 16:48:40,667 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 2  7  0]
+ [ 0  2  1]]
+2025-06-25 16:48:42,169 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 490/500, Avg Loss: 0.0001145524, Weighted F1: 0.6346153846, Unweighted F1: 0.5918803419, Weighted Acc: 0.5703703884, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:42,169 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:48:43,685 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 491/500, Avg Loss: 0.0003701268, Weighted F1: 0.6346153846, Unweighted F1: 0.5918803419, Weighted Acc: 0.5703703884, Unweighted Acc: 0.6296296296
+2025-06-25 16:48:43,685 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [2 7 0]
+ [0 2 1]]
+2025-06-25 16:48:45,213 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 492/500, Avg Loss: 0.0001699270, Weighted F1: 0.6674876847, Unweighted F1: 0.6100164204, Weighted Acc: 0.5777777982, Unweighted Acc: 0.6666666667
+2025-06-25 16:48:45,213 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 3  6  0]
+ [ 0  2  1]]
+2025-06-25 16:48:46,718 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 493/500, Avg Loss: 0.0091337527, Weighted F1: 0.6613756614, Unweighted F1: 0.5873015873, Weighted Acc: 0.5555555786, Unweighted Acc: 0.7037037037
+2025-06-25 16:48:46,718 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[15  0  0]
+ [ 6  3  0]
+ [ 0  2  1]]
+2025-06-25 16:48:48,235 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 494/500, Avg Loss: 0.0616018038, Weighted F1: 0.5370370370, Unweighted F1: 0.3888888889, Weighted Acc: 0.4222222561, Unweighted Acc: 0.5555555556
+2025-06-25 16:48:48,236 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[9 6 0]
+ [3 6 0]
+ [0 3 0]]
+2025-06-25 16:48:49,741 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 495/500, Avg Loss: 0.0175037742, Weighted F1: 0.4705882353, Unweighted F1: 0.3137254902, Weighted Acc: 0.3407407728, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:49,742 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 7  2  0]
+ [ 0  3  0]]
+2025-06-25 16:48:51,250 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 496/500, Avg Loss: 0.0004000488, Weighted F1: 0.4524853801, Unweighted F1: 0.3135964912, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:51,250 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:48:52,755 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 497/500, Avg Loss: 0.0004524414, Weighted F1: 0.4524853801, Unweighted F1: 0.3135964912, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:52,755 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:48:54,259 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 498/500, Avg Loss: 0.0009947894, Weighted F1: 0.5043572985, Unweighted F1: 0.4673202614, Weighted Acc: 0.4296296413, Unweighted Acc: 0.5185185185
+2025-06-25 16:48:54,260 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[11  4  0]
+ [ 7  2  0]
+ [ 0  2  1]]
+2025-06-25 16:48:55,766 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 499/500, Avg Loss: 0.1021465541, Weighted F1: 0.4148148148, Unweighted F1: 0.2666666667, Weighted Acc: 0.3037037336, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:55,767 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[12  3  0]
+ [ 8  1  0]
+ [ 1  2  0]]
+2025-06-25 16:48:57,276 - utils.logger2025-06-25-16.36.23 - INFO - Epoch 500/500, Avg Loss: 0.0038638870, Weighted F1: 0.4524853801, Unweighted F1: 0.3135964912, Weighted Acc: 0.3333333630, Unweighted Acc: 0.4814814815
+2025-06-25 16:48:57,276 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[10  5  0]
+ [ 6  3  0]
+ [ 1  2  0]]
+2025-06-25 16:48:57,276 - utils.logger2025-06-25-16.36.23 - INFO - Training complete. Random seed: 3407. Best epoch: 205.
+2025-06-25 16:48:57,276 - utils.logger2025-06-25-16.36.23 - INFO - Best Weighted F1: 0.8030, Best Unweighted F1: 0.7134, Best Weighted Acc: 0.6815, Best Unweighted Acc: 0.8148.
+2025-06-25 16:48:57,276 - utils.logger2025-06-25-16.36.23 - INFO - Confusion Matrix:
+[[14  1  0]
+ [ 2  7  0]
+ [ 0  2  1]]

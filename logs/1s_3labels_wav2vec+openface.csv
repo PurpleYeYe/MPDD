@@ -1,0 +1,4 @@
+Time,random seed,splitwindow_time,labelcount,audiofeature_method,videofeature_method,batch_size,num_epochs,feature_max_len,lr,Weighted_F1,Unweighted_F1,Weighted_Acc,Unweighted_Acc,Confusion_Matrix
+2025-06-25 17:27:42,3407,1s,3,wav2vec,openface,8,500,25,0.000060,0.6966,0.5022,0.5333,0.7407,[14 1 0] [3 6 0] [0 3 0]
+2025-07-21 01:33:40,3407,1s,3,wav2vec,openface,8,500,25,0.000050,0.7108,0.6507,0.6089,0.7333,[24 1 0] [8 7 0] [0 3 2]
+2025-07-21 02:09:42,3407,1s,3,wav2vec,openface,8,500,25,0.000060,0.5918,0.5426,0.5733,0.6444,[23 1 1] [10 3 2] [2 0 3]

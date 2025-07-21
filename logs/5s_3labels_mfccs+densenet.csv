@@ -1,0 +1,3 @@
+Time,random seed,splitwindow_time,labelcount,audiofeature_method,videofeature_method,batch_size,num_epochs,feature_max_len,lr,Weighted_F1,Unweighted_F1,Weighted_Acc,Unweighted_Acc,Confusion_Matrix
+2025-07-07 12:23:11,3407,5s,3,mfccs,densenet,8,500,6,0.000400,0.6263,0.4646,0.4889,0.6667,[12 3 0] [3 6 0] [3 0 0]
+2025-07-20 23:41:20,3407,5s,3,mfccs,densenet,8,500,6,0.000400,0.5469,0.3853,0.4000,0.5778,[20 5 0] [7 6 2] [3 2 0]

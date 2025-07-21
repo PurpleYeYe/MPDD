@@ -1,0 +1,48 @@
+{
+    "input_dim_a": 512,
+    "embd_size_a": 128,
+    "embd_method_a": "maxpool",
+    
+    "input_dim_v": 1000,
+    "embd_size_v": 128,
+    "embd_method_v": "maxpool",
+    
+    "emo_output_dim": 5,
+    
+    "cls_layers": "128,64",
+    "dropout_rate": 0.2,
+    "bn": false,
+    "ce_weight": 1.0,
+    "focal_weight": 1.0,
+    "temperature": 0.007,
+
+    
+    "Transformer_head": 2,
+    "Transformer_layers": 1,
+    "hidden_size": 256,
+    
+    "attention_head": 1,
+    "attention_dropout": 0.0,
+    
+    "activate_fun": "relu",
+    "ablation": "normal",
+    "use_ICL": true,
+    "drop_last": false,
+    "cvNo": 1,
+    
+    "gpu_ids": [0],
+    "isTrain": true,
+    "checkpoints_dir": "./checkpoints",
+    "name": "MDPP",
+    
+    "cuda_benchmark": true,
+    
+    "lr": 2e-5,
+    "beta1": 0.9,
+    
+    "log_dir": "./logs",
+    "feature_max_len": 5,
+    "use_sparse": true,
+    "sparse_weight": 0.01,
+    "lowrank_rank": 32
+}
