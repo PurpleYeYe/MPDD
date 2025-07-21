@@ -1,3 +1,95 @@
+# Audio Augmentation Dataset
+
+This module provides three types of audio data augmentation strategies designed to enrich multimodal audio-visual datasets.
+
+## Features
+
+* **Three Augmentation Strategies**:
+
+  * **Concatenation (`concat`)**: Combines two audio samples by concatenating them at a 75%:25% ratio.
+  * **Mixup (`mixup`)**: Blends two audio samples using a weighted sum (75%:25%).
+  * **Combined (`combined`)**: Applies both concat and mixup methods to each sample, generating two augmented versions per original sample.
+
+* **Multi-scale Support**:
+
+  * Supports both **1-second** and **5-second** temporal windows.
+  * Compatible with multiple audio feature types: **MFCCs**, **OpenSmile**, and **Wav2Vec**.
+
+## Usage
+
+### Basic Command
+
+```bash
+python dataset.py \
+  --json_path <path_to_original_json> \
+  --audio_path <path_to_original_audio_features> \
+  --video_path <path_to_original_video_features> \
+  --aug_root <output_root_dir_for_augmented_data> \
+  --personalized_file <path_to_personalized_features> \
+  --aug_method <concat | mixup | combined> \
+  [--is_elderly] \
+  [--max_len 10] \
+  [--log_dir logs]
+```
+
+### Argument Description
+
+| Argument              | Required | Default  | Description                                           |
+| --------------------- | -------- | -------- | ----------------------------------------------------- |
+| `--json_path`         | Yes      | -        | Path to the original JSON annotation file             |
+| `--audio_path`        | Yes      | -        | Path to the original audio features                   |
+| `--video_path`        | Yes      | -        | Path to the original video features                   |
+| `--aug_root`          | Yes      | -        | Root directory to save augmented data                 |
+| `--personalized_file` | Yes      | -        | Path to the personalized feature file                 |
+| `--aug_method`        | Yes      | `concat` | Augmentation method: `concat`, `mixup`, or `combined` |
+| `--is_elderly`        | No       | -        | Use elderly dataset (default is young group)          |
+| `--max_len`           | No       | `10`     | Maximum sequence length for features                  |
+| `--log_dir`           | No       | `logs`   | Directory to save log files                           |
+
+## Augmentation Strategy Details
+
+### Concatenation (`concat`)
+
+* Generates **2 augmented samples** per original sample.
+* Each augmented sample is composed of **75% primary sample** + **25% auxiliary sample** (from the same subject).
+* Requires at least **2 samples per subject**.
+
+### Mixup (`mixup`)
+
+* Generates **2 augmented samples** per original sample.
+* Each augmented sample is a **weighted sum** of the primary and auxiliary sample (75% + 25%).
+* Requires at least **2 samples per subject**.
+
+### Combined (`combined`)
+
+* Generates **2 augmented samples per original sample** (1 using concat, 1 using mixup).
+* Requires at least **3 samples per subject**.
+
+## Output Directory Structure
+
+The augmented data will be stored under the specified `aug_root` directory with the following structure:
+
+```
+aug_root/
+├── 1s/
+│   ├── Audio/
+│   │   ├── mfccs/
+│   │   ├── opensmile/
+│   │   └── wav2vec/
+│   └── Video/         # (To be manually added by the user)
+├── 5s/
+│   ├── Audio/
+│   │   ├── mfccs/
+│   │   ├── opensmile/
+│   │   └── wav2vec/
+│   └── Video/         # (To be manually added by the user)
+└── labels/
+    └── augmented_data.json
+
+
+
+
+
 # Environment
 
     python 3.10.0
